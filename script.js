@@ -76,3 +76,14 @@ document.querySelectorAll('.product').forEach(product => {
         // Aqui você pode adicionar o redirecionamento para a página do produto
     });
 });
+
+function hideIcon() {
+    document.getElementById("search-icon").style.opacity = "0";
+}
+
+function showIcon() {
+    let input = document.querySelector(".search-container input");
+    if (input.value === "") {
+        document.getElementById("search-icon").style.opacity = "1";
+    }
+}
