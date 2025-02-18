@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop.Co</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mob.css">
+
     <script defer src="script.js"></script>
     
 </head>
@@ -14,9 +16,13 @@
             <p>Sign up and get 20% off your first order! <a href="#">Sign Up Now</a></p>
         </div>
         <nav>
-            <div class="logo">
-                <a href="#"><b onclick="location.reload();"><img src="imagens/logo.png" alt=""></b></a>
+            <div class="logomob">
+                <a href="#"><img src="imagens/traco.png"></a><b onclick="location.reload();"><img src="imagens/shopmob.png" alt=""></b>
                 </div>
+            <div class="logo">
+                <a href="#"><img src="imagens/traco.png"></a><b onclick="location.reload();"><img src="imagens/logo.png" alt=""></b>
+                </div>
+
             <ul>
                 <li><a href="#"><img src="imagens/shop.png" alt=""></a></li>
                 <li><a href="#"><img src="imagens/onsale.png" alt=""></a></li>
@@ -29,16 +35,17 @@
                 <input type="text" id="search-input" placeholder="Search for products..." 
                     onfocus="this.placeholder=''" 
                     onblur="this.placeholder='Search for products...'">
-            </div>            
+            </div>     
+
             <div class="icons">
-            <span><img src="imagens/carrinho.png" alt=""></span>
-            <span><img src="imagens/usuario.png" alt=""></span>
+                <p><img src="imagens/lupamob.png" alt=""></p>
+                <span><img src="imagens/carrinho.png" alt=""></span>
+                <span><img src="imagens/usuario.png" alt=""></span>
             </div>
         </nav>
     </header>
     
     <section class="hero">
-        
         <div class="hero-content">
             <h1>
                 <img src="imagens/find.png" alt="">
@@ -47,13 +54,31 @@
                 <img src="imagens/browse.png" alt="">
             </p>
             <button>Shop Now</button>
-
             <img id="num" src="imagens/numeros.png" alt="">
-            
         <img id="starg" src="imagens/starg.png" alt="">
         <img id="starp" src="imagens/starp.png" alt="">
         </div>
-        
+    </section>
+
+    <section class="heromob">
+        <div class="heromob-content">
+            <h1>
+                <img src="imagens/findmob.png" alt="">
+            </h1>
+            <p>
+                <img src="imagens/browsemob.png" alt="">
+            </p>
+            <button>Shop Now</button>
+
+            <img id="nummob2" src="imagens/num2.png" alt="">
+            <br>
+            <img id="nummob3" src="imagens/num3.png" alt="">
+        </div>
+    </section>
+    
+    <section class="starmob">
+        <h1><img src="imagens/starmobg.png"></h1>
+        <P><img src="imagens/starmobp.png"></P>
     </section>
 
     <section class="brands">
@@ -64,10 +89,43 @@
         <div><a href="https://www.calvinklein.us/" target="_blank"><img src="imagens/calvin.png" alt=""></a></div>
     </section>
 
+    <section class="brandsmob">
+        <div><a href="https://www.versace.com/" target="_blank"><img src="imagens/versasemob.png" alt=""></a></div>
+        <div><a href="https://www.zara.com/" target="_blank"><img src="imagens/zaramob.png" alt=""></a></div>
+        <div><a href="https://www.gucci.com/" target="_blank"><img src="imagens/guccimob.png" alt=""></a></div>
+        <div><a href="https://www.prada.com/" target="_blank"><img src="imagens/pradamob.png" alt=""></a></div>
+        <div><a href="https://www.calvinklein.us/" target="_blank"><img src="imagens/calvinmob.png" alt=""></a></div>
+    </section>
+
+    <section class="new-arrivalsmob">
+        <img src="imagens/newmob.png">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel1">
+
+                <div class="productmob">
+                    <img src="imagens/tshirt.png" title="T-shirt with Tape Details">
+                    <p><a href="#"><img src="imagens/tp.png"></a><br><img src="imagens/ncamisap.png"><br><img src="imagens/120.png"></p>
+                </div>
+                <div class="productmob">
+                    <img src="imagens/jeans.png" title="Skinny Fit Jeans">
+                    <p><a href="#"><img src="imagens/cs.png"></a><br><img src="imagens/ncalca.png"><br><img src="imagens/240.png"></p>
+                </div>
+                <div class="productmob">
+                    <img src="imagens/checkered-shirt.png" title="Checkered Shirt">
+                    <p><a href="#"><img src="imagens/st.png"></a><br><img src="imagens/ncamisal.png"><br><img src="imagens/180.png"></p>
+                </div>
+                <div class="productmob">
+                    <img src="imagens/striped-shirt.png" title="Sleeve Striped T-shirt">
+                    <p><a href="#"><img src="imagens/sj.png"></a><br><img src="imagens/ncamisal.png"><br><img src="imagens/130.png"></p>
+                </div>
+            </div>
+        </div>
+        <br><button class="na">View All</button>
+        <img src="imagens/linemob.png">
+    </section>
+
     <section class="new-arrivals">
-
-        <img src="imagens/new.png">
-
+        <h1><img src="imagens/new.png"></h1>
         <div class="products">
 
             <div class="product">
@@ -86,17 +144,39 @@
                 <img src="imagens/striped-shirt.png" title="Sleeve Striped T-shirt">
                 <p><a href="#"><img src="imagens/sj.png"></a><br><img src="imagens/ncamisal.png"><br><img src="imagens/130.png"></p>
             </div>
-
         </div>
         <br><button>View All</button>
         <img src="imagens/Line.png">
     </section>
 
+    <section class="top-sellingmob">
+        <img src="imagens/topsemob.png">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel2">
+                <div class="productmob">
+                    <img src="imagens/vertical-shirt.png" title="T-shirt with Tape Details">
+                    <p><a href="#"><img src="imagens/striped.png"></a><br><img src="imagens/n5.png"><br><img src="imagens/212.png"></p>
+                </div>
+                <div class="productmob">
+                    <img src="imagens/graphic-tshirt.png" title="Skinny Fit Jeans">
+                    <p><a href="#"><img src="imagens/courage.png"></a><br><img src="imagens/n4.png"><br><img src="imagens/145.png"></p>
+                </div>
+                <div class="productmob">
+                    <img src="imagens/bermuda.png" title="Checkered Shirt">
+                    <p><a href="#"><img src="imagens/loose.png"></a><br><img src="imagens/n3.png"><br><img src="imagens/80.png"></p>
+                </div>
+                <div class="productmob">
+                    <img src="imagens/faded-jeans.png" title="Sleeve Striped T-shirt">
+                    <p><a href="#"><img src="imagens/skinny.png"></a><br><img src="imagens/ncamisal.png"><br><img src="imagens/210.png"></p>
+                </div>
+            </div>
+        </div>
+        <button class="bt">View All</button>
+    </section>
+
     <section class="top-selling">
-        <img src="imagens/topse.png" alt="">
-
+        <h1><img src="imagens/topse.png" alt=""></h1>
         <div class="products">
-
             <div class="product">
                 <img src="imagens/vertical-shirt.png" title="Vertical Striped Shirt">
                 <p><a href="#"><img src="imagens/striped.png"></a><br><img src="imagens/n5.png"> <br><img src="imagens/212.png"></p>
@@ -114,7 +194,7 @@
                 <p><a href="#"><img src="imagens/skinny.png"></a><br><img src="imagens/ncamisal.png"><br><img src="imagens/210.png"></p>
             </div>
         </div>
-        <button class="bt">View All</button>
+        <button>View All</button>
     </section>
     
     <section class="dress-style">
@@ -128,7 +208,17 @@
             <div class="style-item"><img src="imagens/gym.png"></div>
         </div>
     </section>
-    
+
+    <section class="dress-stylemob">
+        <img src="imagens/dressstylemob.png">
+        <div class="stylesmob">
+            <div class="style-item"><img src="imagens/casualmob.png"></div>
+            <div class="style-item"><img src="imagens/formalmob.png"></div>
+            <div class="style-item"><img src="imagens/partymob.png"></div>
+            <div class="style-item"><img src="imagens/gymmob.png"></div>
+        </div>
+    </section>
+
     <section class="customers">
         <h2><img src="imagens/happy.png"></h2>
         <button1><img src="imagens/esq.png"></button><button2><img src="imagens/dir.png"></button2>
@@ -144,6 +234,20 @@
             </div>
         </div>
     </section>
+
+    <section class="customersmob">
+        <h2><img src="imagens/happymob.png"></h2>
+        <div class="controls">
+            <button id="prev"><img src="imagens/esq.png"></button>
+            <button id="next"><img src="imagens/dir.png"></button>
+        </div>
+        <div class="reviewsmob">
+            <div class="reviewmob"><img src="imagens/saramob.png"></div>
+            <div class="reviewmob"><img src="imagens/alexmob.png"></div>
+            <div class="reviewmob"><img src="imagens/jamesmob.png"></div>
+        </div>
+    </section>
+
     <section class="new">
         <div class="newsletter">
             <p><img src="imagens/stayupto.png"></p>
@@ -154,6 +258,15 @@
             </div>
             </div>
     </section>
+
+    <section class="newmob">
+        <div class="newslettermob">
+            <img src="imagens/stayuptomob.png">
+            <input type="email" placeholder="Enter your email address">
+            <button>Subscribe to Newsletter</button>
+        </div>
+    </section>
+
     <footer>
         <div class="footer-lin">
             <ul>
@@ -203,10 +316,69 @@
         </div> 
     </footer>
     
+
+
+    <footer class="mobile">
+        <div class="footermob-lin">
+            <ul>
+                <li><a href="#"><img src="imagens/shopfmob.png"></a></li>
+                <li><a href="#"><img src="imagens/havemob.png"></a></li>
+                <li><a href="#"><img src="imagens/socialmob.png"></a></li>
+            </ul>
+        </div> 
+        
+        <div class="footermob-link">
+            <ul>
+                <li><a href="#"><img src="imagens/company.png"></a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="imagens/help.png"></a></li>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">Delivery Details</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div> 
+
+        <div class="footermob-linkss">
+            <ul>
+                <li><a href="#"><img src="imagens/faq.png"></a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Manage Deliveries</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Payments</a></li>
+            </ul>
+            <ul>
+                <li><a2 href="#"><img src="imagens/rec.png"></a2></li>
+                <li><a2 href="#">Free eBooks</a2></li>
+                <li><a2 href="#">Development</a2></li>
+                <li><a2 href="#">How to - Blog</a2></li>
+                <li><a2 href="#">Youtube Play</a2></li>
+            </ul>
+        </div> 
+    </footer>
+
+
+
     <section class="rodape">
         <img src="imagens/Line.png">
         <p>Shop.Co &copy; 2000-2023, All Rights Reserved</p>
         <p1><img src="imagens/visa.png"><img src="imagens/master.png"><img src="imagens/paypal.png"><img src="imagens/ipay.png"><img src="imagens/gpay.png"></p1>
     </section>
+
+
+    <section class="rodapemob">
+        <img src="imagens/linemob.png">
+        <div id="rodap">Shop.Co &copy; 2000-2023, All Rights Reserved
+        </div>
+        <div id="rodad"><img src="imagens/pagamentos.png"></div>
+
+    </section>
+
+
 </body>
 </html>
