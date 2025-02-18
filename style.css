@@ -45,12 +45,20 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.logomob{
+    display: none;
+}
+.logo a{
+    display: none;
+    
+}
 
-.logo {
+.logo b{
     width: 160px;
     height: 22px;
     margin-left: 20px;
     padding-bottom: 28px;
+    cursor: pointer;
 }
 
 nav ul {
@@ -77,9 +85,17 @@ nav input[type="text"] {
     font-weight: 400;
 }
 
+
 .icons span {
     cursor: pointer;
     padding-right: 15px;
+    img:has([alt="lupa"]) {
+        display: none;
+      }
+}
+
+.icons p{
+    display: none;
 }
 
 .search-container {
@@ -108,6 +124,10 @@ nav input[type="text"] {
 }
 
 /* Estilos da seção hero */
+
+.heromob{
+    display: none;
+}
 
 .hero {
     display: flex;
@@ -161,6 +181,10 @@ nav input[type="text"] {
 
 /*Estrelas Piscando*/
 
+.starmob{
+    display: none;
+}
+
 #starg {
     
     position: absolute;
@@ -192,6 +216,10 @@ nav input[type="text"] {
     background-color: #000000;
 }
 
+.brandsmob{
+    display: none;
+}
+
 /* Estilos da seção de novos produtos */
 
 
@@ -202,6 +230,13 @@ nav input[type="text"] {
     background-color: #ffffff;
     align-items: center;
 
+}
+.top-sellingmob{
+    display: none;
+}
+
+.new-arrivalsmob{
+    display: none;
 }
 
 .new-arrivals {
@@ -284,6 +319,9 @@ nav input[type="text"] {
     text-align: center;
 }
 
+.dress-stylemob {
+    display: none;
+}
 
 .styles {
     display: flex;
@@ -308,6 +346,10 @@ nav input[type="text"] {
     padding-top: 100px;
     text-align: start;
     margin-left: 100px;
+}
+
+.customersmob{
+    display: none;
 }
 
 .customers button1 {
@@ -340,10 +382,12 @@ nav input[type="text"] {
 
 /* Estilos do rodapé */
 
+.newmob{
+    display: none;
+}
 .new {
     background: linear-gradient(to bottom, #ffffff 50%, #f0f0f0 50%);
 }
-
 
 .newsletter {
     display: flex;
@@ -401,6 +445,10 @@ nav input[type="text"] {
     border-radius: 62px;
     padding: 10px 10px 12px;
     cursor: pointer;
+}
+
+.mobile{
+    display: none;
 }
 
 footer {
@@ -503,6 +551,10 @@ footer {
     gap: 30px;
     background-color: #f0f0f0;
     list-style: none;
+}
+
+.rodapemob{
+    display: none;
 }
 
 .rodape{
