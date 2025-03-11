@@ -1,8 +1,12 @@
+.body { 
+  justify-content: center;
+}
 
 .homeshop{
-    margin-top: 190px;
-    margin-left: 100px;
+    margin-top: 170px;
+    margin-left: 55px;
     cursor: pointer;
+    
 }
 
 .imagens {
@@ -33,10 +37,14 @@
 
 .inicio{
    position: relative;
+   justify-content: center;
+
 }
 
 .infoo , .imagens-pequenas{
     margin-left: 25px;
+    justify-content: center;
+
 }
 
 .f1{
