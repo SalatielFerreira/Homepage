@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "interaction/script/hamburguer.js",
         "interaction/script/carrousel.js",
         "interaction/script/email.js",
-        "interaction/script/produtos.js"
+        "interaction/script/produtos.js",
+        "interaction/script/categoria.js",
     ];
 
     scripts.forEach(script => {
