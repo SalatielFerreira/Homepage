@@ -1,4 +1,4 @@
-.body { 
+.body {
   justify-content: center;
 }
 
@@ -285,4 +285,34 @@
 .alsolike{
     text-align: center;
     margin-top: 100px;
+}
+.homeshopm{
+  display: none;
+}
+.iniciom{
+  display: none;
+}
+.iniciomm{
+  display: none;
+}
+.selectorm{
+  display: none;
+}
+.allrem{
+  display: none;
+}
+.comentsm{
+  display: none;
+}
+.clothes-sectionm{
+  display: none;
+}
+.coresm{
+  display: none; 
+}
+.clothes-sectionm{
+  display: none;
+}
+.new-arrivalsmob {
+  display: none;
 }
