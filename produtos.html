@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="./interaction/produtos.css">
     <link rel="stylesheet" href="./interaction/style.css">
+    <link rel="stylesheet" href="./interaction/mobile/produtosmob.css">
     <script src="./interaction/main.js" defer></script>
 
   </head>
@@ -366,7 +367,6 @@
             </div>
         </div>
     </section>
-    </section>
 
     <section class="selector">
       <img class="details" src="illustration/imagens/produtos/details.png">
@@ -586,7 +586,95 @@
       </div>
     </section>
 
-    <!-- Newsletter Section -->
+    <!------------------------------ Mobile --------------------------->
+
+    <section class="homeshopm">
+      <img src="illustration/imagens/produtos/homeshopm.png">
+    </section>
+
+    <section class="iniciom">
+      <div class="gallery">
+        <img id="mainImage" class="main-image" src="illustration/imagens/produtos/atrasm.png" alt="Imagem Principal">
+    
+        <div class="thumbnails">
+          <img class="thumbnail" src="illustration/imagens/produtos/atrasm.png" alt="Thumb 1" onclick="changeImage(this)">
+          <img class="thumbnail" src="illustration/imagens/produtos/atrasm.png" alt="Thumb 2" onclick="changeImage(this)">
+          <img class="thumbnail" src="illustration/imagens/produtos/completom.png" alt="Thumb 3" onclick="changeImage(this)">
+        </div>  
+    </section>
+    <section class="iniciomm">
+        <img  class="onlifem" src="illustration/imagens/produtos/onlifem.png" alt=""><br>
+        <img  class="s45" src="illustration/imagens/produtos/s45.png" alt=""><br>
+        <img  class="v260" src="illustration/imagens/produtos/v260.png" alt=""><br>
+        <img  class="thism" src="illustration/imagens/produtos/thism.png" alt=""><br>
+        <img  class="linhao" src="illustration/imagens/produtos/linham.png" alt="">
+    </section>
+
+    <section class="coresm">
+      <img class="f7" src="illustration/imagens/produtos/cores.png"><br>
+
+      <div class="color-picker">
+        <div class="color-btn" data-color="#FF0000" style="background-color: #4F4631;"></div>
+        <div class="color-btn" data-color="#00FF00" style="background-color: #314F4A;"></div>
+        <div class="color-btn" data-color="#0000FF" style="background-color: #31344F;"></div>
+      </div>
+      <img  class="linham" src="illustration/imagens/produtos/linham.png" alt="">
+
+      <img class="f9" src="illustration/imagens/produtos/choose.png"><br>
+
+        <div class="size-picker">
+          <div class="size-btn" data-size="S">Small</div>
+          <div class="size-btn" data-size="M">Medium</div>
+          <div class="size-btn" data-size="L">Large</div>
+          <div class="size-btn" data-size="XL">X-Large</div>
+        </div>
+              
+        <img class="f10" src="illustration/imagens/produtos/linham.png"><br>
+                
+        <div class="contador">
+          <div class="quantity-selector">
+            <button id="decrease">-</button>
+            <div id="quantity" class="quantity-display">1</div>
+            <button id="increase">+</button>
+          </div>
+        <button class="add-button" id="add-btn">Add to Cart</button>
+        </div>   
+    </section>
+
+    <section class="selectorm">
+      <img class="detailsm" src="illustration/imagens/produtos/detailsm.png">
+      <img class="reviewsm" src="illustration/imagens/produtos/reviewsm.png">
+      <img class="faqsm" src="illustration/imagens/produtos/faqsm.png"><br>
+      <img class="linhagm" src="illustration/imagens/produtos/linham.png">
+      <img class="linhappm" src="illustration/imagens/produtos/linhappm.png">
+    </section>
+
+    <section class="allrem">
+      <img class="alrem" src="illustration/imagens/produtos/alrem.png">
+      <img class="num451m" src="illustration/imagens/produtos/num451m.png">
+      <img class="filterm" src="illustration/imagens/produtos/filterm.png">
+      <img class="writem" src="illustration/imagens/produtos/writem.png">
+    </section>
+
+    <section class="comentsm">
+      <img class="samantham" src="illustration/imagens/produtos/samantham.png"><br>
+      <img class="alexm" src="illustration/imagens/produtos/alexm.png"><br>
+      <img class="ethanm" src="illustration/imagens/produtos/ethanm.png">
+      <button class="btnn">Load More Reviews</button>    
+    </section>
+
+    <section class="new-arrivalsmob">
+      <img src="illustration/imagens/produtos/alsolikem.png">
+      <div class="carousel-container">
+          <div class="carousel" id="carousel1">
+
+              <div class="productmob">
+                  <img src="illustration/imagens/produtos/polopm.png">
+                  <p><a href="#"><img src="illustration/imagens/produtos/polom.png"></a><br><img src="illustration/imagens/produtos/num4m.png"><br><img src="illustration/imagens/produtos/precom.png"></p>
+              </div>
+          </div>
+      </div>
+  </section>
 
     <section class="newsletter-section" id="newslettersection">
       <div id="news" class="newsletter">
