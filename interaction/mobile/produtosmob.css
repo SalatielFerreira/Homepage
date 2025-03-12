@@ -1,0 +1,315 @@
+/* Responsividade */
+@media (max-width: 600px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* mobile */
+    
+    .homeshopm{
+        display: block;
+        margin-top: 120px;
+        margin-left: 20px ;
+    }
+    .iniciom{
+        display: block;
+    }
+    .gallery {
+        text-align: center;
+    }
+    .main-image {
+        margin-top: 15px;
+        width: 328px;
+        height: 290px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+  
+    .thumbnails {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+  
+    .thumbnail {
+        width: 111px;
+        height: 106px;
+        object-fit: cover;
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 20px;
+    }
+    .iniciomm{
+        display: block;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .s45{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .v260{
+        margin-bottom: 10px;
+    }
+    .coresm{
+        display: block;
+
+    }
+    .f7{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .color-picker{
+        margin-top: -90px;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+
+    .linham{
+        margin-left: 15px;
+    }
+    .f9, .f10{
+        margin-left: 15px;
+    }
+    .size-picker{
+        margin-left: 15px;
+    }
+    .size-btn{
+        width: 75px;
+        height: 39px;
+        font-size: 12px;
+    }
+    .contador{
+        position: relative;
+    }
+    .quantity-selector{
+        width: 100px;
+        height: 44px;
+        background-color: transparent;   
+
+    }
+    .quantity-display{
+        position: absolute;
+        margin-left: 65px;
+        margin-top: 10px;
+        background-color: transparent;   
+        height: 44px;
+    }
+    
+    #decrease{
+        width: 20px;
+        position: absolute;
+        background-color: transparent;    
+ }
+    #increase{
+        width: 20px;
+        position: absolute;
+        margin-left: 60px;
+        background-color: transparent;   
+    }
+
+    .add-button{
+        width: 236px;
+        height: 44px;
+        margin-right: 15px;
+    }
+
+    .selectorm{
+        display: block;
+        position: relative;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+      .detailsm{
+        margin-right: 40px;
+        cursor: pointer;
+      }
+    
+      .faqsm{
+        margin-left: 40px;
+        cursor: pointer;
+      }
+    
+      .reviewsm{
+        cursor: pointer;
+        margin-top: 0px;
+      }
+    
+      .linhappm{
+        position: absolute;
+        margin-top: 15px;
+        margin-left: -205px;
+      }
+
+    .allrem{
+        display: block;
+        position: relative;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    
+    .filterm{
+        position: absolute;
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+    .writem{
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -10px;
+    }
+
+    .comentsm{
+        display: block;
+        margin-left: 15px;
+    }
+    .samantham{
+        margin-top: 25px;
+    }
+    
+    .alexm{
+        margin-top: 15px;
+    }
+    
+    .ethanm{
+        margin-top: 15px;
+    }
+    .btnn{
+        width: 195px;
+        height: 47px;
+        margin-top: 15px;
+        border-radius: 62px;
+        cursor: pointer;
+        background-color: white;
+        font-size: 14px;
+        margin-left: 80px;
+        border-color: beige;
+    }
+   
+    .newsletter-section{
+        margin-top: 20px;
+    }
+
+    .new-arrivalsmob {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .productmob p, .productmobb p{
+        text-align: left;
+        margin-top: 20px;
+        align-self: flex-start;
+        margin-left: 50px;
+    }
+   
+    .carousel-container {
+        position: relative;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+    
+    .carousel {
+        display: flex;
+        transition: transform 0.8s ease-in-out;
+    }
+
+    .productmob, .productmobb{
+        min-width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .homeshop{
+        display: none;
+    }
+    .inicio{
+        display: none;
+    }
+    .selector{
+        display: none;
+    }
+    .allre{
+        display: none;
+    }
+    .coments{
+        display: none;
+    }
+    .clothes-section{
+        display: none;
+    }
+    
+}
