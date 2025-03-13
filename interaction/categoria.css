@@ -41,7 +41,6 @@
   .pagination button {
     padding: 8px 12px;
     background-color: white;
-    color: #adadad;
     cursor: pointer;
     border-radius: 8px;
     transition: background-color 0.3s, color 0.3s;
@@ -60,23 +59,24 @@
 
   .pagination button:disabled {
     background-color: #ffffff;
-    color: #888;
+    color: #000000;
     cursor: not-allowed;
   }
 
   .page-btn{
     border: none;
+    color: #d1d1d1;
   }
 
-  #prevBtn{
+  .prevbtnn{
     border: 1px solid rgb(241, 241, 241);
-    color: black;
+    color: rgb(0, 0, 0);
     margin-right: 240px;
   }
 
-  #nextBtn{
+  .nextbtnn{
     border: 1px solid rgb(211, 211, 211);
-    color: black;
+    color: rgb(0, 0, 0);
     margin-left: 240px;
   }
 
@@ -281,4 +281,12 @@ input[type="range"]::-webkit-slider-thumb {
   color: #ffffff;
   background-color: #000000;
   border-radius: 62px;
+}
+
+.colunam{
+  display: none;
+}
+
+.homecasualm{
+  display: none;
 }
